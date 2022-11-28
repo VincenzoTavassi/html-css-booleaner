@@ -16,7 +16,7 @@ h1 {
     margin-bottom: 0;
 }
 
-.autore {
+.autore, .interessanti {
     font-size: 25px;
     color: grey;
     font-weight: bold;
@@ -40,4 +40,46 @@ h1 {
     font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+}
+
+.testo-standard {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.evidenziato {
+    background-color: yellow;
+}
+
+.titolo-tabella {
+    background-color: deepskyblue;
+    color: white;
+}
+
+th {
+
+    width: 30%;
+    text-align: left;
+}
+
+.blue {
+    background-color:lightskyblue;
+}
+
+.img-footer {
+    width: 312px;
+    height: 208px;
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 10px;
+
+}
+
+#monitor {
+    background-image: url('../img/monitor.jpg');
+}
+
+#graph {
+    background-image: url('../img/graph.jpg');
 }
